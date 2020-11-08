@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const compose = require('node-fetch-middleware');
 
 let middlewares = [function(url, init, next){next(url, init);}]
 let middlewareFetch = fetch;
