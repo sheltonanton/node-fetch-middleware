@@ -1,0 +1,28 @@
+{
+  "name": "fetch-middleware",
+  "version": "1.0.0",
+  "description": "supply middlewares before performing fetch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheltonanton/node-fetch-middleware.git"
+  },
+  "keywords": [
+    "Node",
+    "fetch",
+    "github"
+  ],
+  "author": "Infant Antony Shelton J S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sheltonanton/node-fetch-middleware/issues"
+  },
+  "homepage": "https://github.com/sheltonanton/node-fetch-middleware#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-fetch-middleware": "^1.0.1"
+  }
+}
